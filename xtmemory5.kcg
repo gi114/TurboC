@@ -1,0 +1,108 @@
+# callgrind format
+version: 1
+creator: xtree-1
+pid: 15220
+cmd: ./turbo
+
+positions: line
+event: curB : currently allocated Bytes
+event: curBk : currently allocated Blocks
+event: totB : total allocated Bytes
+event: totBk : total allocated Blocks
+event: totFdB : total Freed Bytes
+event: totFdBk : total Freed Blocks
+events: curB  curBk  totB  totBk  totFdB  totFdBk 
+fl=(1) UnknownFile???
+fn=(1) main
+0 136 1 136 1 0 0
+
+fl=(1)
+fn=(1)
+0 40 1 40 1 0 0
+
+fl=(1)
+fn=(1)
+0
+cfi=(2) /build/glibc-OTsEL5/glibc-2.27/stdio-common/printf.c
+cfn=(2) printf
+calls=0 33
+0 0 0 1024 1 0 0
+fl=(2)
+fn=(2)
+33
+cfi=(3) /build/glibc-OTsEL5/glibc-2.27/stdio-common/vfprintf.c
+cfn=(3) vfprintf
+calls=0 1642
+33 0 0 1024 1 0 0
+fl=(3)
+fn=(3)
+1642
+cfi=(4) /build/glibc-OTsEL5/glibc-2.27/libio/fileops.c
+cfn=(4) _IO_file_xsputn@@GLIBC_2.2.5
+calls=0 1266
+1642 0 0 1024 1 0 0
+fl=(4)
+fn=(4)
+1266
+cfi=(4)
+cfn=(5) _IO_file_overflow@@GLIBC_2.2.5
+calls=0 759
+1266 0 0 1024 1 0 0
+fl=(4)
+fn=(5)
+759
+cfi=(5) /build/glibc-OTsEL5/glibc-2.27/libio/genops.c
+cfn=(6) _IO_doallocbuf
+calls=0 365
+759 0 0 1024 1 0 0
+fl=(5)
+fn=(6)
+365
+cfi=(6) /build/glibc-OTsEL5/glibc-2.27/libio/filedoalloc.c
+cfn=(7) _IO_file_doallocate
+calls=0 101
+365 0 0 1024 1 0 0
+fl=(6)
+fn=(7)
+101 0 0 1024 1 0 0
+
+fl=(7) /build/glibc-OTsEL5/glibc-2.27/csu/../csu/libc-start.c
+fn=(8) (below main)
+344
+cfi=(8) /build/glibc-OTsEL5/glibc-2.27/stdlib/exit.c
+cfn=(9) exit
+calls=0 139
+344 0 0 0 0 1024 1
+fl=(8)
+fn=(9)
+139
+cfi=(8)
+cfn=(10) __run_exit_handlers
+calls=0 132
+139 0 0 0 0 1024 1
+fl=(8)
+fn=(10)
+132
+cfi=(9) /home/giulia/Applications/valgrind-3.13.0/coregrind/vg_preloaded.c
+cfn=(11) _vgnU_freeres
+calls=0 77
+132 0 0 0 0 1024 1
+fl=(9)
+fn=(11)
+77
+cfi=(1)
+cfn=(12) __libc_freeres
+calls=0 0
+77 0 0 0 0 1024 1
+fl=(1)
+fn=(12)
+0
+cfi=(1)
+cfn=(13) buffer_free
+calls=0 0
+0 0 0 0 0 1024 1
+fl=(1)
+fn=(13)
+0 0 0 0 0 1024 1
+
+totals: 176 2 1200 3 1024 1

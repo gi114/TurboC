@@ -1,0 +1,27 @@
+Cardinality: 35 (FINAL_RESULT: 4000)
+withFree: yes
+curB: 32280 
+curBk: 2
+totB: 287544
+totBk: 911
+totFdB: 255264
+totFdBk: 909
+
+
+Cardinality: 35 (FINAL_RESULT: 4000)
+withFree: no
+curB: 286520
+curBk: 910
+totB: 287544
+totBk: 911
+totFdB: 1024
+totFdBk: 1
+
+Cardinality: 35 (FINAL_RESULT: 2823)
+withFree: yes
+curB: 22864
+curBk: 2
+totB: 278128
+totBk: 911
+totFdB: 255264
+totFdBk: 909

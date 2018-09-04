@@ -1,0 +1,358 @@
+# callgrind format
+version: 1
+creator: xtree-1
+pid: 14972
+cmd: ./turbo
+
+positions: line
+event: curB : currently allocated Bytes
+event: curBk : currently allocated Blocks
+event: totB : total allocated Bytes
+event: totBk : total allocated Blocks
+event: totFdB : total Freed Bytes
+event: totFdBk : total Freed Blocks
+events: curB  curBk  totB  totBk  totFdB  totFdBk 
+fl=(1) UnknownFile???
+fn=(1) main
+0 1400 1 1400 1 0 0
+
+fl=(1)
+fn=(1)
+0 0 0 160 1 0 0
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2) additionOp
+calls=0 0
+0 0 0 0 0 160 1
+fl=(1)
+fn=(2)
+0 0 0 0 0 160 1
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 160 1 0 0
+fl=(1)
+fn=(2)
+0 0 0 160 1 0 0
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2240 14
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2240 14
+fl=(1)
+fn=(2)
+0 0 0 0 0 2240 14
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2240 14 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2240 14 0 0
+fl=(1)
+fn=(2)
+0 0 0 2240 14 0 0
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2560 16
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2560 16
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2560 16
+fl=(1)
+fn=(2)
+0 0 0 0 0 2560 16
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2560 16 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2560 16 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2560 16 0 0
+fl=(1)
+fn=(2)
+0 0 0 2560 16 0 0
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2560 16
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2560 16
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2560 16
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2560 16
+fl=(1)
+fn=(2)
+0 0 0 0 0 2560 16
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2560 16 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2560 16 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2560 16 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 2560 16 0 0
+fl=(1)
+fn=(2)
+0 0 0 2560 16 0 0
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2080 13
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2080 13
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2080 13
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2080 13
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 0 0 0 0 2080 13
+fl=(1)
+fn=(2)
+0 0 0 0 0 2080 13
+
+fl=(1)
+fn=(1)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 160 1 2080 13 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 160 1 2080 13 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 160 1 2080 13 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 160 1 2080 13 0 0
+fl=(1)
+fn=(2)
+0
+cfi=(1)
+cfn=(2)
+calls=0 0
+0 160 1 2080 13 0 0
+fl=(1)
+fn=(2)
+0 160 1 2080 13 0 0
+
+fl=(1)
+fn=(1)
+0
+cfi=(2) /build/glibc-OTsEL5/glibc-2.27/stdio-common/printf.c
+cfn=(3) printf
+calls=0 33
+0 0 0 1024 1 0 0
+fl=(2)
+fn=(3)
+33
+cfi=(3) /build/glibc-OTsEL5/glibc-2.27/stdio-common/vfprintf.c
+cfn=(4) vfprintf
+calls=0 1642
+33 0 0 1024 1 0 0
+fl=(3)
+fn=(4)
+1642
+cfi=(4) /build/glibc-OTsEL5/glibc-2.27/libio/fileops.c
+cfn=(5) _IO_file_xsputn@@GLIBC_2.2.5
+calls=0 1266
+1642 0 0 1024 1 0 0
+fl=(4)
+fn=(5)
+1266
+cfi=(4)
+cfn=(6) _IO_file_overflow@@GLIBC_2.2.5
+calls=0 759
+1266 0 0 1024 1 0 0
+fl=(4)
+fn=(6)
+759
+cfi=(5) /build/glibc-OTsEL5/glibc-2.27/libio/genops.c
+cfn=(7) _IO_doallocbuf
+calls=0 365
+759 0 0 1024 1 0 0
+fl=(5)
+fn=(7)
+365
+cfi=(6) /build/glibc-OTsEL5/glibc-2.27/libio/filedoalloc.c
+cfn=(8) _IO_file_doallocate
+calls=0 101
+365 0 0 1024 1 0 0
+fl=(6)
+fn=(8)
+101 0 0 1024 1 0 0
+
+fl=(7) /build/glibc-OTsEL5/glibc-2.27/csu/../csu/libc-start.c
+fn=(9) (below main)
+344
+cfi=(8) /build/glibc-OTsEL5/glibc-2.27/stdlib/exit.c
+cfn=(10) exit
+calls=0 139
+344 0 0 0 0 1024 1
+fl=(8)
+fn=(10)
+139
+cfi=(8)
+cfn=(11) __run_exit_handlers
+calls=0 132
+139 0 0 0 0 1024 1
+fl=(8)
+fn=(11)
+132
+cfi=(9) /home/giulia/Applications/valgrind-3.13.0/coregrind/vg_preloaded.c
+cfn=(12) _vgnU_freeres
+calls=0 77
+132 0 0 0 0 1024 1
+fl=(9)
+fn=(12)
+77
+cfi=(1)
+cfn=(13) __libc_freeres
+calls=0 0
+77 0 0 0 0 1024 1
+fl=(1)
+fn=(13)
+0
+cfi=(1)
+cfn=(14) buffer_free
+calls=0 0
+0 0 0 0 0 1024 1
+fl=(1)
+fn=(14)
+0 0 0 0 0 1024 1
+
+totals: 1560 2 12184 63 10624 61
