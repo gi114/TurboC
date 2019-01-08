@@ -120,7 +120,7 @@ s64 * print(const s64 result[], s64 final_res[]) {
 }
 
 
-/** Function: checks if the numbers currently evaluates are successful subsets **/
+/** Function: checks if the numbers currently evaluated are successful subsets **/
 
 int is_a_sum(const s64 * n) {       /* if false 0, else 1 */
 
